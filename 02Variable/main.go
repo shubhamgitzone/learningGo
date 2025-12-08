@@ -56,6 +56,11 @@ func main() {
 	fmt.Printf("Type of anotherVariable: %T\n", anotherVariable)
 	fmt.Println("=============================")
 
+	var anotherString string
+	fmt.Println(anotherString)
+	fmt.Printf("Type of anotherString: %T\n", anotherString)
+	fmt.Println("=============================")
+
 	fmt.Println("=============Implicit Type================")
 	var website = "google.com" // implicit type string
 	// Lexer decides the type based on the value assigned
